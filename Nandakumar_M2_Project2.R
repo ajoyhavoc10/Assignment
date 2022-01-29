@@ -140,3 +140,5 @@ plot(x = dataHarrison$age,y = dataHarrison$fl,
      main = "Plot 6: Legend Overlay",pch=pchs,col=cols)
 abline(lm(fl~age, data = dataHarrison))
 legend("bottomright", title=("Time"),legend =c("1977-80", "1977-01"), pch= pchs, col=cols)
+#end
+
