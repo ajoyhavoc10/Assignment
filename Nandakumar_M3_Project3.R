@@ -135,7 +135,6 @@ pc <- barplot(d$counts, width = 1, space = 0.15, border = NA, axes = F,
 ylim = c(0,0.05*228),ylab ="Cumulative Counts",cex.axis = 0.7, cex.names = 0.55,
 names.arg = d$Species,las=2, main = "Species Pareto")
 
-px <- d$cum_counts
 lines(pc,d$cumcounts, type = "b", cex = 0.70, pch = 19, col="cyan4")
 
 par(box(which = "plot", lty = "solid", col = "grey"))
