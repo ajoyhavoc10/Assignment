@@ -84,7 +84,7 @@ is.data.frame(u)
 colnames(u) <- c('Var1','Freq')
 
 #14.Create a barplot of <cSpec> with the following: titled Fish Count with the following specifications:
-> barplot(cSpec, main = "Fish Count", xlab = "COUNTS", col = "light green", horiz=TRUE, cex.names=0.5, las = 2)
+barplot(cSpec, main = "Fish Count", xlab = "COUNTS", col = "light green", horiz=TRUE, cex.names=0.5, las = 2)
 
 #15. Create a barplot of <cSpecPct>, with the following specifications
 barplot(cSpecPct, ylim=c(0,4), col.axis = "light blue", ylab = "Frequency",
