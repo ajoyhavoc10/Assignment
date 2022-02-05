@@ -75,6 +75,7 @@ cSpec
 x_cout <- table(bio$species)   
 cSpecPct <- (x_cout / length(bio$species)) * 10   
 cSpecPct
+is.table(cSpecPct)
 
 #13.Convert the table, <cSpecPct>, to a data frame named <u> and confirm that <u> is a data
 frame
