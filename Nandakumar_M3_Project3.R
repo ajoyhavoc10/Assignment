@@ -117,7 +117,6 @@ ylim = c(0,0.05*228),ylab ="Cummulative Counts",cex.axis = 0.7, cex.names = 0.55
 names.arg = d$Species,las=2, main = "Species Pareto")
 
 #21.Add a cumulative counts line to the <pc> plot with the following
-px <- d$cum_counts
 lines(pc,d$cumcounts, type = "b", cex = 0.70, pch = 19, col="cyan4")
 
 #22.Place a grey box around the pareto plot 
